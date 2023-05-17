@@ -1,0 +1,100 @@
+#body
+{
+height=750;
+width=1300;
+background-color: black;
+}
+.div1
+{
+background-color: yellow;
+height: 150px;
+width: 1300px;
+}
+.div11
+{
+background-color: violet;
+height: 150px;
+width: 900px;
+float: left;
+}
+.div12
+{
+background-color: yellow;
+height: 150px;
+width: 400px;
+float: left;
+}
+.div121
+{
+background-color: white;
+height: 75px;
+width: 400px;
+}
+.div122
+{
+background-color: yellow;
+height: 75px;
+width: 400px;
+}
+
+.div2
+{
+background-color: blue;
+height: 450px;
+width: 1300px;
+}
+.div21
+{
+background-color: cyan;
+height: 450px;
+width: 200px;
+float: left;
+}
+.div22
+{
+background-color: pink;
+height: 450px;
+width: 650px;
+float: left;
+}
+.div23
+{
+background-color: cyan;
+height: 450px;
+width: 450px;
+float :left;
+}
+.div3
+{
+background-color: red;
+height: 150px;
+width: 1300px;
+}
+.div31
+{
+background-color: orange;
+height: 150px;
+width: 300px;
+float: left;
+}
+.div32
+{
+background-color: green;
+height: 150px;
+width: 350px;
+float: left;
+}
+.div33
+{
+background-color: orange;
+height: 150px;
+width: 350px;
+float: left;
+}
+.div34
+{
+background-color: green;
+height: 150px;
+width: 300px;
+float: left;
+}
