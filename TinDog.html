@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TinDog</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+    #title
+    {
+      background-image: linear-gradient(to right, orange, pink);
+      height: 700px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+    }
+    .topic
+    {
+      height:100px;
+      width:400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      margin-top: 200px;
+      margin-left: 90px;
+    }
+    .buttons
+    {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      align-items: center;
+      gap: 0px;
+      width: 400px;
+      height: 50px;
+    }
+    .frapple
+    {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height:40px;
+      width: 120px;
+    }
+    #features
+    {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      height: 200px;
+      width: 1100px;
+      gap: 30px;
+      margin-left: 30px;;
+    }
+    .box
+    {
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+    }
+    .uprprt
+    {
+      display: flex;
+      flex-direction: row;
+      width: 350px;
+      height:auto;
+    }
+    .test
+    {
+      display: flex;
+      flex-direction: column;
+      
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Title -->
+  <section id="title">
+    <div class="topic">
+      <h1 style="font-size: 40px;"> Meet new and interesting dogs nearby. </h1>
+      <div class="buttons">
+        <div class="button1" style="width: 150px;">
+          <div class="frapple">
+            <button type="button" class="btn btn-light btn-lg" style="width: 150px; height: 40px;">
+              <img src="./images/apple.png" style="height: 15px; width: 30px; text-align: center;"> Download</button>
+          </div>
+        </div>
+        <div class="button2" style="width: 150px;">
+          <button type="button" class="btn btn-outline-light" style="height: 40px; width: 150px; text-align: center;">
+          Download</button>
+        </div>
+      </div>
+    </div>
+    <div class="insimage" style="margin-left: 150px; margin-top: 200px;">
+        <img src="./images/iphone.png" style="width: 300px; height: 500px;">
+    </div>
+  </section>
+
+
+
+
+  <!-- Features -->
+  <section id="features">
+    <div class="div1 box" style="display: flex; flex-direction: column; gap: 0px">
+      <div class="uprprt" style="gap: 20px;">
+        <div class="div11">
+          <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-check2-circle"
+                viewBox="0 0 16 16">
+            <path
+                  d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 
+                  0 1 1-11 0z" />
+            <path
+                  d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 
+                  0l7-7z" />
+          </svg>
+        </div>
+        <div class="div12" style="font-size: 40px;">
+          Easy to use.
+        </div>
+      </div>
+      <div class="lwrprt"  style="margin-left: 30px;">
+        <p style="font-size: 20px;">So easy to use, even your dog could do it. <p>
+      </div>
+    </div>
+    <div class="div2 box" style="display: flex; flex-direction: column; gap: 10px">
+      <div class="uprprt" style="gap: 20px;">
+        <div class="div21">
+          <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-mortarboard" 
+          viewBox="0 0 16 16">
+            <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 
+            0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 
+            1.758 5.965 8 3.052l6.242 2.913L8 8.46Z"/>
+            <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 
+            .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 
+            1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
+            </svg>
+        </div>
+        <div class="div22" style="font-size: 40px;">
+          Elite Clientele.
+        </div>
+      </div>
+      <div class="lwrprt"  style="margin-left: 30px;">
+        <p style="font-size: 20px;">We have all the dogs, the greatest dogs.</p>
+      </div>
+    </div>
+    <div class="div3 box" style="display: flex; flex-direction: column; gap: 10px">
+      <div class="uprprt" style="gap: 20px;">
+        <div class="div31">
+          <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-arrow-through-heart"
+                viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                  d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 
+                  11.5h1.793l.53-.53c-.771-.802-1.328-1.58-1.704-2.32-.798-1.575-.775-2.996-.213-4.092C3.426 
+                  2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 
+                  0h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 
+                  1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182a21.86 21.86 0 0 
+                  1-2.685-2.062l-.539.54V14a.5.5 0 0 1-.146.354l-1.5 1.5Zm2.893-4.894A20.419 20.419 0 0 0 8 
+                  12.71c2.456-1.666 3.827-3.207 4.489-4.512.679-1.34.607-2.42.215-3.185-.817-1.595-3.087-2.054-4.
+                  346-.761L8 4.62l-.358-.368c-1.259-1.293-3.53-.834-4.346.761-.392.766-.464 1.845.215 3.185.323.636.
+                  815 1.33 1.519 2.065l1.866-1.867a.5.5 0 1 1 .708.708L5.747 10.96Z" />
+          </svg>
+        </div>
+        <div class="div32" style="font-size: 40px;">
+          Guaranteed to work.
+        </div>
+      </div>
+      <div class="lwrprt"  style="margin-left: 30px;">
+        <p style="font-size: 20px;">Find the love of your dog's life or your money back.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonial -->
+  <section id="testimonial" class="test" style="margin-top: 150px;">
+    <div class="write" style="width: 950px; text-align: center; margin-left: 90px;">
+      <p style="font-size: 30px;"><b> "I no longer have to sniff other dogs for love. I've found the hottest Corgi 
+        on TinDog. Woof." </b></p>
+    </div>
+    <div class="im" style="display: flex; justify-content: center;">
+      <img src="./images/dog-img.jpg" style="height: 100px; width: 100px; border-radius: 50%; margin-left: 90px;">
+    </div>
+    <div class="write" style="width: 950px; text-align: center; margin-left: 170px;">
+      <p style="font-size: 20px;"> Pebbles, New York </p>
+    </div>
+    <div class="pics" style="height: 100px; display: flex; flex-direction: row; gap: 20px; justify-content: center;
+     gap: 30px; margin-top: 40px;">
+      <div class="pic1">
+        <img src="./images/techcrunch.png" style="width: 200px; height: 30px;">
+      </div>
+      <div class="pic2">
+        <img src="./images/mashable.png" style="width: 200px; height: 35px;">
+        
+      </div>
+      <div class="pic3">
+        <img src="./images/bizinsider.png" style="width: 200px; height: 40px;">
+        
+      </div>
+      <div class="pic4">
+        <img src="./images/tnw.png" style="width: 100px; height: 30px;">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Pricing -->
+  <section id="pricing">
+    <div class="h" style="height: 60px;">
+      <p style="font-size: 70px; text-align: center; "> A Plan for Every Dog's Needs </p>
+    </div>
+    <div class="h">
+      <p style="font-size: 25px; text-align: center; margin-top: 30px; margin-bottom: 60px;"> Simple and affordable price plans for you 
+        and your dog. </p>
+    </div>
+    <div class="prices"  style="display: flex; flex-direction: row; justify-content: center; gap: 30px;">
+      <div class="card" style="border: 2px solid gray; border-radius: 5%; width: 300px; text-align: center; 
+      padding: 30px;">
+        <h5 class="card-header" style="font-size: 30px; margin-top: 0px; margin-bottom: 10px;">Chihuahua</h5>
+        <div class="card-body">
+          <h1 class="card-title" style="font-size: 40px; margin-top: 0px;">$0<small class="text-body-secondary 
+            fw-light">/mo</small></h1>
+          <p class="card-text">5 Matches Per Day <br>  10 Messages Per Day <br>   Unlimited App Usage</p>
+          <button type="button" class="btn btn-light" style="width: 200px;">Sign up for free</button>
+        </div>
+      </div>
+      <div class="card" style="border: 2px solid gray; border-radius: 5%; width: 300px; text-align: center; 
+      padding: 30px;">
+        <h5 class="card-header" style="font-size: 30px; margin-top: 0px; margin-bottom: 10px;">Labrador</h5>
+        <div class="card-body">
+          <h1 class="card-title" style="font-size: 40px; margin-top: 0px;">$15<small class="text-body-secondary 
+            fw-light">/mo</small></h1>
+          <p class="card-text"> Unlimited Matches <br>Unlimited Messages<br>   Unlimited App Usage</p>
+          <button type="button" class="btn btn-dark" style="width: 200px;">Get started</button>
+        </div>
+      </div>
+      <div class="card" style="border: 2px solid gray; border-radius: 5%; width: 300px; text-align: center; 
+      padding: 30px;">
+        <h5 class="card-header" style="font-size: 30px; margin-top: 0px; margin-bottom: 10px;">Mastiff</h5>
+        <div class="card-body">
+          <h1 class="card-title" style="font-size: 40px; margin-top: 0px;">$29<small class="text-body-secondary 
+            fw-light">/mo</small></h1>
+          <p class="card-text"> Pirority Listing <br> Unlimited Matches & Messages <br>   Unlimited App Usage</p>
+          <button type="button" class="btn btn-dark" style="width: 200px; margin-left: 0px;">Get started</button>
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+  <!-- Footer -->
+  <div class="container" style="background: linear-gradient(to right, orange,pink);">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+      <div class="col mb-3">
+        <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <p class="text-body-secondary">© Tindog</p>
+      </div>
+
+      <div class="col mb-3">
+
+      </div>
+
+      <div class="col mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+
+
+  <section id="footer">
+
+  </section>
+</body>
+
+</html>
